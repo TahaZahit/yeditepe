@@ -1,3 +1,0 @@
-"# yeditepe" 
-"# yeditepe" 
-"# yeditepe" 
