@@ -1,0 +1,56 @@
+  DirList.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly DirList, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class DirList.ItemInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 ByteSize 'get ' IsLong : 
+    System.String TypeName 'get ' : 
+    System.String FileName 'get ' : 
+  Methods:
+    get_FileName(): PrivateScope, Public, HideBySig, SpecialName
+    get_TypeName(): PrivateScope, Public, HideBySig, SpecialName
+    get_ByteSize(): PrivateScope, Public, HideBySig, SpecialName
+Class DirList.Node: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(DirList.ItemInfo): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    DirList.ItemInfo Item : Public
+    DirList.Node NameNext : Public
+    DirList.Node NamePrev : Public
+    DirList.Node TypeNext : Public
+    DirList.Node TypePrev : Public
+    DirList.Node SizeNext : Public
+    DirList.Node SizePrev : Public
+Class DirList.NodeList: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    DirList.Node NameHead : Public
+    DirList.Node NameTail : Public
+    DirList.Node TypeHead : Public
+    DirList.Node TypeTail : Public
+    DirList.Node SizeHead : Public
+    DirList.Node SizeTail : Public
+  Methods:
+    Remove(String): PrivateScope, Public, HideBySig
+    RemoveNode(Node): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    Add(ItemInfo): PrivateScope, Public, HideBySig
+    AddName(Node): PrivateScope, Public, HideBySig
+    AddType(Node): PrivateScope, Public, HideBySig
+    AddSize(Node): PrivateScope, Public, HideBySig
+Class DirList.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

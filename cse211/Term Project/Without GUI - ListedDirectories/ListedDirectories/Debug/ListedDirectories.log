@@ -1,0 +1,8 @@
+﻿  ListDir.cpp
+c:\users\kreq\desktop\listeddirectories\listeddirectories\listdir.cpp(283): warning C4018: '>': signed/unsigned mismatch
+c:\users\kreq\desktop\listeddirectories\listeddirectories\listdir.cpp(369): warning C4018: '<': signed/unsigned mismatch
+c:\users\kreq\desktop\listeddirectories\listeddirectories\listdir.cpp(371): warning C4018: '<': signed/unsigned mismatch
+c:\users\kreq\desktop\listeddirectories\listeddirectories\listdir.cpp(416): warning C4018: '<': signed/unsigned mismatch
+c:\users\kreq\desktop\listeddirectories\listeddirectories\listdir.cpp(418): warning C4018: '<': signed/unsigned mismatch
+  ListedDirectories.vcxproj -> C:\Users\KReQ\Desktop\ListedDirectories\Debug\ListedDirectories.exe
+  ListedDirectories.vcxproj -> C:\Users\KReQ\Desktop\ListedDirectories\Debug\ListedDirectories.pdb (Partial PDB)

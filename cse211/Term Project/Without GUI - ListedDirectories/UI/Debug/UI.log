@@ -1,0 +1,13 @@
+﻿  ListDir.cpp
+ListDir.cpp(54): error C2664: 'HANDLE FindFirstFileW(LPCWSTR,LPWIN32_FIND_DATAW)': cannot convert argument 1 from 'const char *' to 'LPCWSTR'
+  ListDir.cpp(54): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+ListDir.cpp(58): error C2440: 'initializing': cannot convert from 'WCHAR [260]' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  ListDir.cpp(58): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+ListDir.cpp(283): warning C4018: '>': signed/unsigned mismatch
+ListDir.cpp(369): warning C4018: '<': signed/unsigned mismatch
+ListDir.cpp(371): warning C4018: '<': signed/unsigned mismatch
+ListDir.cpp(416): warning C4018: '<': signed/unsigned mismatch
+ListDir.cpp(418): warning C4018: '<': signed/unsigned mismatch
+  MyForm.cpp
+MyForm.cpp(7): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  Generating Code...

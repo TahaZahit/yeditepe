@@ -1,0 +1,3 @@
+﻿  ItemInfo.h
+ItemInfo.h(28): warning C4244: 'return': conversion from '__int64' to 'long', possible loss of data
+  DirList.vcxproj -> C:\Users\KReQ\Desktop\DirList\Debug\DirList.exe
