@@ -1,0 +1,7 @@
+sort price.txt
+
+sort price.txt > sorted.txt 
+
+cat sorted.txt
+
+head -1 sorted.txt

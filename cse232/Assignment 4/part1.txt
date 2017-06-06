@@ -1,0 +1,13 @@
+times	function	cycle	times * cycle
+1	STX		2	2
+1	LDX		2	2
+100	DEX		1	100
+100	CPX		3	300
+100	BGT		2	200
+1	LDX		2	2
+1	RTS		1	1	
+		
+Total				607 cycle
+
+
+1/1000000*607=0,000607seconds = 0,0607 miliseconds

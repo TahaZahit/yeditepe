@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\kreq\desktop\macroprocessor\test\source.cpp(38): warning C4101: 'x': unreferenced local variable
+c:\users\kreq\desktop\macroprocessor\test\source.cpp(38): warning C4101: 'c': unreferenced local variable
+  test.vcxproj -> C:\Users\KReQ\Desktop\MacroProcessor\Debug\test.exe
+  test.vcxproj -> C:\Users\KReQ\Desktop\MacroProcessor\Debug\test.pdb (Partial PDB)

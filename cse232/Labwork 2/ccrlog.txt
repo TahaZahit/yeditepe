@@ -1,0 +1,14 @@
+x=4	y=4	ccr:000100	BGT=1 	-> Z or (N xor V) 
+					-> 1 or ( 0 xor 0) 
+					-> 1 or 0 
+					-> 1
+
+x=4	y=12	ccr:001001	BGT=1 	-> Z or (N xor V) 
+					-> 0 or ( 1 xor 0) 
+					-> 0 or 1 
+					-> 1
+
+x=12	y=4	ccr:000000	BGT=0 	-> Z or (N xor V) 
+					-> 0 or ( 0 xor 0) 
+					-> 0 or 0 
+					-> 0
